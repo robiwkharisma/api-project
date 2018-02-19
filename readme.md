@@ -34,7 +34,7 @@ API Project is an API used for Frontend application to manage data of Api Projec
 
 ## Installation
 
-Myre API works well with Apache or PHP built-in web server.
+API project works well with Apache or PHP built-in web server.
 
 ### Virtual Host
 
@@ -48,9 +48,6 @@ For Apache, please enable `rewrite` mod.
 #### Directory Permission
 * `storage` directory and it's contents should be **writeable** by server-user (i.e www-data or apache).
 * `public/uploads` directory and it's contents should be **writeable** by server-user (i.e www-data or apache).
-
-Make sure your user `myre-dev` is added to www-data/apache groups by (example):
-* `sudo usermod -a -G www-data myre-dev`
 
 #### Environment Setup
 
@@ -104,7 +101,7 @@ Please set the value of each variables to your needs, then save as `.env` file.
 
 See composer installation on [`this document`](https://getcomposer.org/doc/00-intro.md) to download composer on your machine.
 
-When ready, execute **`composer install`** in application root directory (ie: `/var/www/myre-api/`).
+When ready, execute **`composer install`** in application root directory (ie: `/var/www/api-project/`).
 
 #### Database Migration
 
@@ -132,6 +129,6 @@ Configuration for supervisor included in `.supervisor.example` on root directory
 
 Run this command if there is no service installed:
 
-`php /home/myre-dev/myre-api/artisan queue:work --tries=1 & >> /home/myre-dev/myre-api/storage/logs/queue-worker-manual-1.log`
+`php ../api-project/artisan queue:work --tries=1 & >> ../api-project/storage/logs/queue-worker-manual-1.log`
 
 Takes note if server restart, this command need to be executed manually again.
