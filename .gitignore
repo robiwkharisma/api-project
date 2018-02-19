@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/public/uploads
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+Homestead.json
+Homestead.yaml
+npm-debug.log
+.env
+composer.lock
+route.list
+/public/download
+composer.phar
+phpunit.phar

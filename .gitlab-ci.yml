@@ -1,0 +1,13 @@
+stages:
+  - test
+
+no-test:
+  stage: test
+  script:
+    - echo "no-test"
+
+# sonar-runner:
+#  stage: test
+#  script:
+#    - sonar-runner
+#

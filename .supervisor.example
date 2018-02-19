@@ -1,0 +1,8 @@
+[program:myre-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /var/www/myre-api/artisan queue:work
+autostart=true
+autorestart=true
+numprocs=2
+redirect_stderr=true
+stdout_logfile=/var/www/myre-api/storage/logs/queue-worker.log

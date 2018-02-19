@@ -1,0 +1,409 @@
+{
+    "id": 7,
+    "status": "CREATED",
+    "rent": 1000,
+    "area": 1000,
+    "submitUserId": null,
+    "validateUserId": null,
+    "tenant": {
+        "id": 7,
+        "color": "#5ff442",
+        "fullName": "Jemi Hendrix",
+        "raisonSociale": {
+            "id": 1,
+            "code": "M01",
+            "label": "SOCIETE"
+        },
+        "vatOption": true,
+        "vat": "CA90210",
+        "addressOption": true,
+        "addresses": [
+            {
+                "id": 13,
+                "addressType": "headquarter",
+                "address": {
+                    "id": 66,
+                    "address1": "West Lane 12",
+                    "address2": null,
+                    "zipcode": "14123",
+                    "city": "Vancouver",
+                    "country": "CANADA",
+                    "lat": 49.2827291,
+                    "lng": -123.1207375
+                }
+            },
+            {
+                "id": 14,
+                "addressType": "billing",
+                "address": {
+                    "id": 67,
+                    "address1": "West Lane 12",
+                    "address2": null,
+                    "zipcode": "14123",
+                    "city": "Vancouver",
+                    "country": "CANADA",
+                    "lat": 49.2827291,
+                    "lng": -123.1207375
+                }
+            }
+        ],
+        "siren": "111111118",
+        "bankDetails": "ZERO",
+        "bankAccountName": "Mat Dower",
+        "iban": "IBAN111111111",
+        "swift": "SWIFT",
+        "contactJobTitle": "Job Title",
+        "contactCivility": "mr.",
+        "contactLastName": "McKendrik",
+        "contactFirstName": "Alessia",
+        "contactEmail": "hendy.yanuar+alessia@wgs.co.id",
+        "contactOfficePhone": "+19283718246"
+    },
+    "code": "TEST1",
+    "contractType": {
+        "id": 1,
+        "code": "commercial",
+        "label": "Bail commercial"
+    },
+    "usagePrincipal": {
+        "id": 1,
+        "code": "1",
+        "label": "Commerces"
+    },
+    "leaseExecutionDate": "2017-01-01",
+    "leaseStartDate": "2017-01-01",
+    "leaseAvailabilityOption": true,
+    "leaseAvailabilityDate": "2017-01-02",
+    "chargeRecoverableOption": true,
+    "inventoryFixtureOption": true,
+    "leaseEndDate": "2017-12-31",
+    "leaseDuration": 12,
+    "bailFixedTerms": [
+        {
+            "id": 26,
+            "duration": 3,
+            "endDate": "2017-04-02"
+        },
+        {
+            "id": 27,
+            "duration": 2,
+            "endDate": "2017-06-02"
+        }
+    ],
+    "subleaseOption": true,
+    "sublease": "Sublease comment",
+    "leaseTransferOption": true,
+    "leaseTransfer": "Lease transfer comment",
+    "tenantFirstRefusalRightOption": true,
+    "tenantFirstRefusalRight": "tenant_first_refusal_right comment",
+    "tenantFirstRefusalPreemptiveRightOption": true,
+    "environmentalAppendixOption": true,
+    "greenLeaseOption": true,
+    "icpeOption": true,
+    "chargeRecoverableComment": null,
+    "buildings": [
+        {
+            "id": 186,
+            "selectedLots": [20772,20773,20774,20775],
+            "unavailableLots": [20793, 20842]
+        },{
+            "id": 187,
+            "lots": []
+        },{
+            "id": 188,
+            "lots": [
+                {
+                    "id": 120
+                },
+                {
+                    "id": 121
+                }
+            ]
+        },{
+            "id": 189,
+            "lots": [
+                {
+                    "id": 131
+                },
+                {
+                    "id": 132
+                },
+                {
+                    "id": 133
+                },
+                {
+                    "id": 134
+                },
+                {
+                    "id": 135
+                },
+                {
+                    "id": 136
+                }
+            ]
+        },{
+            "id": 190,
+            "lots": [
+                {
+                    "id": 120
+                }
+            ]
+        },{
+            "id": 191,
+            "lots": [
+                {
+                    "id": 120
+                },
+                {
+                    "id": 121
+                }
+            ]
+        },{
+            "id": 192,
+            "lots": [
+                {
+                    "id": 110
+                },
+                {
+                    "id": 112
+                },
+                {
+                    "id": 113
+                },
+                {
+                    "id": 114
+                },
+                {
+                    "id": 115
+                },
+                {
+                    "id": 116
+                }
+            ]
+        },{
+            "id": 193,
+            "lots": [
+                {
+                    "id": 140
+                },
+                {
+                    "id": 142
+                },
+                {
+                    "id": 143
+                },
+                {
+                    "id": 144
+                }
+            ]
+        },{
+            "id": 194,
+            "lots": [
+                {
+                    "id": 120
+                },
+                {
+                    "id": 121
+                }
+            ]
+        },{
+            "id": 195,
+            "lots": [
+                {
+                    "id": 120
+                },
+                {
+                    "id": 121
+                }
+            ]
+        }
+    ],
+    "loyers": [
+        {
+            "id": 10,
+            "typology": {
+                "id": 1,
+                "code": "1",
+                "hasLoyer": true,
+                "label": "Commerces"
+            },
+            "loyerFacialAnnuel": 1000,
+            "loyerFacialAnnuelM2": 1000,
+            "sdp": 1000
+        }
+    ],
+    "invoicingPeriod": 6,
+    "invoicingInterval": "month",
+    "paidInAdvance": true,
+    "indexReferenceList": [
+        {
+            "id": 1,
+            "indexReference": {
+                "id": 1,
+                "value": 108.94,
+                "nature": "ILAT",
+                "periode": "2016-10-01"
+            },
+            "typologies": [
+                { 
+                    "id": 1,
+                    "code": "1",
+                    "hasLoyer": true,
+                    "label": "Commerces"
+                },
+                {
+                    "id": 2,
+                    "code": "2",
+                    "hasLoyer": true,
+                    "label": "Offices"
+                }
+            ]
+        }
+    ],
+    "bailDepositOption": true,
+    "bailDeposit": {
+        "id": 4,
+        "month": 12,
+        "ttc": true,
+        "amount": "10000"
+    },
+    "bailCaution": {
+        "id": 4,
+        "startDate": "2017-01-01",
+        "endDate": "2017-12-31",
+        "amount": "100000",
+        "month": 12
+    },
+    "bailFreeRentList": [
+        {
+            "id": 1,
+            "monthDuration": 1,
+            "dayDuration": 1, 
+            "typologies": [
+                {
+                    "id": 1,
+                    "code": "1",
+                    "hasLoyer": true,
+                    "label": "Commerces"
+                },
+                {
+                    "id": 2,
+                    "code": "2",
+                    "hasLoyer": true,
+                    "label": "Offices"
+                }
+            ],
+            "bailFreeRentPeriodList": [
+                {
+                    "id": 1,
+                    "bail_id": 1,
+                    "bail_free_rent_id": 1,
+                    "startDate": "2017-03-01",
+                    "endDate": "2017-04-30"
+                }
+            ]
+        }
+    ],
+    "bailPlafonOption": true,
+    "bailPlafon": [
+        {
+            "id": 1,
+            "typology": {
+                "id": 1,
+                "code": "1",
+                "hasLoyer": true,
+                "label": "Commerces"
+            },
+            "cap": "100"
+        }
+    ],
+    "bailLevelList": [
+        {
+            "id": 1,
+            "startDate": "2017-01-01",
+            "endDate": "2017-01-01",
+            "amount": 100,
+            "amountM2": 100,
+            "bailLevelIndexReferenceOption": true,
+            "typologies": [
+                {
+                    "id": 1,
+                    "code": "1",
+                    "hasLoyer": true,
+                    "label": "Commerces"
+                },
+                {
+                    "id": 2,
+                    "code": "2",
+                    "hasLoyer": true,
+                    "label": "Offices"
+                }
+            ],
+            "bailLevelPeriodList": [
+                {
+                    "id": 1,
+                    "bail_id": 1,
+                    "bail_level_id": 1,
+                    "startDate": "2017-03-01",
+                    "endDate": "2017-04-30"
+                }
+            ]
+        }
+    ],
+    "bailTenantIncentiveList": [
+        {
+            "id": 1,
+            "type": "lorem",
+            "amount": 100,
+            "typologies": [ 
+                {
+                    "id": 1,
+                    "code": "1",
+                    "hasLoyer": true,
+                    "label": "Commerces"
+                },
+                {
+                    "id": 2,
+                    "code": "2",
+                    "hasLoyer": true,
+                    "label": "Offices"
+                }
+            ]
+        }
+    ],
+    "bailCharge": {
+        "id": 4,
+        "landTaxOption": true,
+        "garbageTaxOption": true,
+        "officeTaxOption": true,
+        "additionalTaxOption": true,
+        "cvaeOption": true,
+        "civilCode605Option": true,
+        "civilCode606Option": false,
+        "buildingInsuranceOption": false,
+        "administrativeFeeOption": true,
+        "technicalFeeOption": false,
+        "defaultInterestOption": false,
+        "defaultInterestComment": "default interest comment here",
+        "myreOption": true,
+        "tlpeOption": true,
+        "otherRecoverableChargeOption": true,
+        "otherRecoverableChargeComment": "WOW"
+    },
+    "noticePeriodDuration": 3,
+    "terminationNoticeDate": "2017-07-29",
+    "terminationReason": "termination reason here",
+    "terminationPenaltyFeeOption": true,
+    "terminationPenaltyFeeAmount": 3,
+    "terminationPenaltyFeeComment": null,
+    "tenantMoveOutDate": "2017-07-29",
+    "departureInventoryOption": true,
+    "refurbishmentOption": true,
+    "refurbishmentAmount": 3,
+    "rentalDeductionOption": true,
+    "rentalDeductionAmount": 3,
+    "disputeOption": true,
+    "disputeComment": "dispute comment here",
+    "cancelationClauseOption": true,
+    "additionalComment": "Additional Comment Text"
+    }
